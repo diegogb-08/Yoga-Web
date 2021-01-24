@@ -1,26 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    list-style: none;
     text-decoration: none;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 nav {
-    padding: 0;
-    margin: 0;
-}
-
-header {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.6em;
-    color: black; 
+    -webkit-box-shadow: 0px 7px 49px -34px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 49px -34px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 49px -34px rgba(0,0,0,0.75);
 }
 
 .img-logo {
@@ -31,45 +18,98 @@ header {
     height:auto;
 }
 
-a {
+.nav-link {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
     color: black;
-}
-
-a:hover {
-    color: black;
+    font-weight: bold; 
     text-decoration: none;
-    font-weight:bold;
-    
+    cursor: pointer;
 }
 
-.nav-item {
-    margin-left: 1em;
-    margin-right: 1em;
+.nav-link:hover {
+    background-color: rgb(219, 163, 148);
+    border-radius: 0.2em;
 }
 
-.social-media {
-    max-width: 1.5em;
-}
+/* Main Section */
 
-a:hover .social-media {
-    max-width: 2em
-}
 
-h1 {
-    text-align:center
-}
-
-p {
-    text-align: justify;
-}
-
-.img-div {
+#mainPicture {
+    max-width: 90%;
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.75);
 }
 
-.footer {
+.main h3 {
+    font-size: 3.4em;
+    font-weight: 700;
+}
+
+.main h6 {
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(219, 163, 148);
+    width: 75%;
+}
+
+/* Services Section */
+
+.services h1 {
+    text-align: center;
+}
+
+.card {
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 5%;
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+}
+
+.card h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card p {
+    color: gray;
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card:hover .circle {
+    background-color: rgb(219, 163, 148);
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+/* From this we have the footer */
+
+.home-footer {
     width: 100vw;
     display: block;
     overflow: hidden;  
@@ -160,39 +200,4 @@ p {
     }
 }
 
-.card {
-    border: none;
-    outline: none;
-    text-align: center;
-    border-radius: 5%;
-    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
-    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
-    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
-}
 
-.card h4 {
-    text-align: center;
-    font-weight: bold;
-}
-
-.card p {
-    color: gray;
-}
-
-.circle {
-    height: 70px;
-    width: 70px;
-    background-color: lightgrey;
-    color: black;
-    padding: 12px;
-    font-size: 30px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-.card:hover .circle {
-    background-color: rgb(219, 163, 148);
-    color: white;
-    transition: 0.5s;
-}

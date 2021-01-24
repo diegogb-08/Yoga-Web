@@ -12,60 +12,175 @@
     <link rel="shortcut icon" href="IMG/Logos_Ramute/FullColor_IconOnly.jpg">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">  
-            <div class="img-logo navbar-brand">
-                <img class="img-logo navbar-brand" src="IMG/Logos_Ramute/website_logo_transparent_background_v2.0.png" alt="Yoga with Ramute"> 
-            </div>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html">Home Page</a></li>
-                    <li class="nav-item"><a href="services.html">Services</a></li>
-                    <li class="nav-item"><a href="booknow.html">Book Now</a></li>
-                    <li class="nav-item"><a href="calendar.html">Calendar</a></li>
-                    <li class="nav-item"><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main class="home-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm divOne">
-                    <img class="img-div" src="IMG/Pictures_Ramute/Bali_Training.jpeg" alt="Yoga in the beach">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">  
+        <div class="img-logo navbar-brand">
+            <img class="img-logo navbar-brand" src="IMG/Logos_Ramute/website_logo_transparent_background_v2.0.png" alt="Yoga with Ramute"> 
+        </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+             <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active px-lg-4" href="#main">Home</a></li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4" href="#services">Services</a></li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4" href="#book">Book Now</a></li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4" href="#about">About Me</a></li>
+                <li class="nav-item">
+                    <a class="nav-link px-lg-4" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!--Main Section-->
+    <section class="main bg-light py-5" id="main">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6 py-4">
+                    <h3><small>Hi Yoguis, I'm</small> <br>
+                        Ramute</h3>
+                    <br>
+                    <h6>Yoga teacher certified RYT by Yoga Alliance (200HR Ashtanga/Vinyasa)</h6>
                 </div>
-                <div class="col-sm divTwo">
-                    <h1>Lorem Ipsum</h1>
-                    <br><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                       <br>
-                       <br>
-                       Rem perspiciatis dolores voluptates iste eligendi delectus, provident dolore ad aspernatur numquam, temporibus totam consectetur repellat quod quidem? Ipsam quis harum natus?
-                    </p>
+                <div class="col-lg-6 mainPicture">
+                    <img id="mainPicture" class="img-fluid" src="IMG/Pictures_Ramute/Meditation.jpeg" alt="Yoga in the beach">
                 </div>
             </div>
         </div>
-        <div class="container">
+    </section>
+
+    <!--Services Section-->
+
+    <section class="services py-5 bg-light" id="services">
+        <div class="container py-5">
+            <h1 class="py-5">Services</h1>
             <div class="row">
-                <div class="col-sm divOne">
-                    <img class="img-div" src="IMG/Pictures_Ramute/Bali_Training.jpeg" alt="Yoga in the beach">
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body py-3">
+                            <div class="circle">
+                                <span><i class="fa fa-tree"></i></span>
+                            </div>
+                            <h4 class="pb3-2">Yoga in the Park</h4>
+                            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum 
+                            has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>    
                 </div>
-                <div class="col-sm divTwo">
-                    <h1>Lorem Ipsum</h1>
-                    <br><br>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
-                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body py-3">
+                            <div class="circle">
+                                <span><i class="fa fa-home"></i></span>
+                            </div>
+                            <h4 class="pb3-2">Yoga at Home</h4>
+                            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum 
+                            has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body py-3">
+                            <div class="circle">
+                                <span><i class="fa fa-battery-three-quarters"></i></span>
+                            </div>
+                            <h4 class="pb3-2">Retreats</h4>
+                            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum 
+                            has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body py-3">
+                            <div class="circle">
+                                <span><i class="fa fa-tree"></i></span>
+                            </div>
+                            <h4 class="pb3-2">Yoga in the Park</h4>
+                            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum 
+                            has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body py-3">
+                            <div class="circle">
+                                <span><i class="fa fa-home"></i></span>
+                            </div>
+                            <h4 class="pb3-2">Yoga at Home</h4>
+                            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum 
+                            has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body py-3">
+                            <div class="circle">
+                                <span><i class="fa fa-battery-three-quarters"></i></span>
+                            </div>
+                            <h4 class="pb3-2">Retreats</h4>
+                            <p>Lorem Ipsum is simply dummy text of the Lorem Ipsum 
+                            has been the industry's standard dummy text ever</p>
+                        </div>
+                    </div>    
                 </div>
             </div>
         </div>
-    </main>
-    <footer class="home-footer" role="contentinfo">
+    </section>
+
+    <!--Book Now Section-->
+
+    <section class="book py-5 bg-light" id="book">
+        <div class="container py-5">
+            <div class="row py-5">
+
+            </div>
+        </div>
+            
+
+    </section>
+
+
+    <!--About Me Section-->
+
+    <section class="about py-5 bg-light" id="about">
+        <div class="container py-5">
+            <div class="row py-5">
+
+            </div>
+        </div>
+            
+
+    </section>
+
+    <!--Contact Section-->
+
+    <section class="contact py-5 bg-light" id="contact">
+        <div class="container py-5">
+            <div class="row py-5">
+    
+            </div>
+        </div>
+                
+    
+    </section>
+
+
+    <!--This is the footer-->
+
+    <div class="home-footer" role="contentinfo">
         <div class="footer">
             <div class="inner_footer">
                 <div class="logo_container">
@@ -79,11 +194,11 @@
 
                 <div class="footer_third">
                     <h1>More</h1>
-                    <a href="index.html">Home Page</a>
-                    <a href="services.html">Services</a>
-                    <a href="booknow.html">Book Now</a>
-                    <a href="calendar.html">Calendar</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="#main">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#">Book Now</a>
+                    <a href="#">Calendar</a>
+                    <a href="#">Contact</a>
                 </div>
 
                 <div class="footer_third">
@@ -101,7 +216,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
     <script src="JS/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
